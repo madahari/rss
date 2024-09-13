@@ -6,6 +6,9 @@ import os
 import html
 import re
 
+# 페이지 설정
+st.set_page_config(page_title="국내 뉴스 RSS 피드", page_icon="📰")
+
 # RSS 피드 URL 목록 (국내 뉴스)
 RSS_FEEDS = {
     '한겨레': 'https://www.hani.co.kr/rss/',
