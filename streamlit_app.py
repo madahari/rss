@@ -51,8 +51,8 @@ def generate_wordcloud(text):
 st.title("국내 뉴스 RSS 피드")
 
 # 관심 있는 주제 및 키워드 입력
-keyword = st.text_input("관심 있는 주제나 키워드를 입력하세요:", "")
-num_news = st.slider("보여줄 뉴스 개수를 선택하세요:", 1, 20, 5)
+keyword = st.text_input("관심 있는 주제나 키워드를 입력하세요:", "북한")
+num_news = st.slider("보여줄 뉴스 개수를 선택하세요:", 1, 20, 10)
 
 if st.button("뉴스 보기"):
     news_data = []
